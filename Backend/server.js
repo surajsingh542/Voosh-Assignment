@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 // cors
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://voosh-frontend-bpn4.onrender.com",
     credentials: true,
   })
 );
